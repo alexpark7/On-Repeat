@@ -1,0 +1,70 @@
+#jb1 {
+    background: url("../img/1.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+
+}
+#jb1 h1, p {
+    top: 50%;
+    margin-top: 130px;
+
+}
+#jb2 {
+    background: url("../img/2.jpg");
+    height: 600px;
+    margin-bottom: 0;
+}
+#jb2 h1, p {
+    margin-top: 100px;
+}
+.navbar {
+    margin: 0;
+}
+.navbar-brand {
+    font-family: 'courier';
+}
+.nav li {
+    font-family: 'courier';
+}
+.container {
+    text-align: center;
+}
+.circle-icon {
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+#edges {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#snip {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.oli {
+    padding: 0px 40px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: courier;
+    color: white;
+
+}
+.hellz {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+
+}

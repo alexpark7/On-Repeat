@@ -1,0 +1,28 @@
+<div class="modal fade" id="postModal" ng-controller="addingCtrl">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Post your latest and greatest.</h4>
+            </div>
+            <form ng-submit="addSong(artist, name, album, images)">
+            <div class="modal-body">
+
+
+                <input type="text" placeholder="Artist Name" ng-model="artist"> <br />
+                <input type="text" placeholder="Song Name" ng-model="name"> <br />
+                <input type="text" placeholder="Album" ng-model="album"> <br />
+                <input type="text" placeholder="Image" ng-model="images"> <br />
+
+
+
+
+        </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary" value="submit">
+            </div>
+                </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
